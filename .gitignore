@@ -1,0 +1,52 @@
+*.py[cod]
+
+# Data
+tmp
+/data
+*.zip
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+.cache
+.ipynb_checkpoints
+*.DS_Store
+
+# Installer logs
+pip-log.txt
+
+# Unit   / coverage reports
+.coverage
+.tox
+nose s.xml
+
+# Virtual environments
+/venv
+.python-version
+
+# Spark
+metastore_db
+derby.log
+
+#pycharm
+.idea/*
+.idea
+~*.xlsx
+
+#xgboost
+xgboost_explainer
